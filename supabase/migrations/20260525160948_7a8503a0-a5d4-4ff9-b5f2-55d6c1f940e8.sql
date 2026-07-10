@@ -1,0 +1,3 @@
+ALTER TABLE public.deal_messages REPLICA IDENTITY FULL;
+ALTER TABLE public.deals REPLICA IDENTITY FULL;
+ALTER TABLE public.deal_role_assignments REPLICA IDENTITY FULL;

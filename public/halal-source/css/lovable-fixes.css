@@ -1,0 +1,160 @@
+html,
+body,
+#root {
+  background: #090909;
+  min-height: 100%;
+}
+
+.cloned-home .landing-reveal {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.cloned-home .landing-inline-svg-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  line-height: 0;
+  background: transparent !important;
+}
+
+.cloned-home .landing-inline-svg-icon svg {
+  display: block;
+}
+
+.cloned-home,
+.cloned-home .landing-main {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+.cloned-home img {
+  max-width: 100%;
+}
+
+.cloned-home .landing-hero__mockup-frame,
+.cloned-home .landing-hero__mockup-inner,
+.cloned-home .hero-mockup img {
+  max-width: 100% !important;
+}
+
+.cloned-home .landing-hero__stats {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.cloned-home .landing-hero__stats::-webkit-scrollbar {
+  display: none;
+}
+
+.cloned-home .landing-how__step-card,
+.cloned-home .landing-features__card {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.cloned-home .landing-how__step-img-wrap--0,
+.cloned-home .landing-how__step-img-wrap--1,
+.cloned-home .landing-how__step-img-wrap--2,
+.cloned-home .landing-how__step-img-wrap--3 {
+  max-width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cloned-home .landing-how__step-img-wrap--0 img,
+.cloned-home .landing-how__step-img-wrap--1 img,
+.cloned-home .landing-how__step-img-wrap--2 img,
+.cloned-home .landing-how__step-img-wrap--3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cloned-home .landing-coins,
+.cloned-home .landing-coins > div,
+.cloned-home .landing-coins .relative,
+.cloned-home .supported-coins-item {
+  max-width: 100%;
+}
+
+.cloned-home .landing-coins {
+  overflow: hidden;
+}
+
+.cloned-home .landing-how__step-card img,
+.cloned-home [class*="landing-how__step-img-wrap"] img,
+.cloned-home .landing-features__card img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 1279px) {
+  .cloned-home .landing-hero__mockup-inner {
+    width: 100% !important;
+  }
+
+  .cloned-home .hero-right {
+    overflow: hidden !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cloned-home .landing-hero .hero-right,
+  .cloned-home .landing-hero .hero-content {
+    flex-basis: auto;
+    width: 100%;
+  }
+
+  .cloned-home .landing-hero__headline,
+  .cloned-home .landing-hero__description,
+  .cloned-home .landing-hero__trusted-row {
+    width: 100%;
+    height: auto;
+  }
+
+  .cloned-home .landing-hero__mockup-frame {
+    width: 100% !important;
+  }
+
+  .cloned-home .landing-how,
+  .cloned-home .landing-features {
+    height: auto !important;
+  }
+}
+
+@media (max-width: 639px) {
+  .cloned-home .landing-hero__stats {
+    gap: 18px;
+    justify-content: flex-start;
+  }
+
+  .cloned-home .landing-hero__stat {
+    min-width: max-content;
+  }
+
+  .cloned-home .landing-how__step-card {
+    width: min(100%, 284px);
+  }
+
+  .cloned-home .landing-how__step-img-wrap--1,
+  .cloned-home .landing-how__step-img-wrap--3 {
+    width: 100%;
+  }
+
+  .cloned-home .landing-coins__dynamic-glow {
+    display: none !important;
+  }
+
+  .cloned-home .landing-coins [class*="grid"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}

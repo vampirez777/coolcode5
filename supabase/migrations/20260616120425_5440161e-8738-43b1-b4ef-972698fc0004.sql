@@ -1,0 +1,1 @@
+UPDATE public.app_settings SET maintenance_mode = false, updated_at = now() WHERE id = 1;

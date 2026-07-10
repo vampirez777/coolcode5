@@ -1,0 +1,1 @@
+UPDATE public.global_security_settings SET enabled = true, updated_at = now() WHERE setting_key IN ('entry_captcha','entry_vpn_check','entry_quiz','entry_risk_blocking');
